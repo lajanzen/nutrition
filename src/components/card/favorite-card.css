@@ -1,0 +1,18 @@
+.favorite-card {
+  background-color: var(--color-button-text);
+  width: 10rem;
+  height: 10rem;
+  display: grid;
+  place-items: center;
+  border-radius: 2.5em;
+}
+
+.favorite-card__svg {
+  display: grid;
+  justify-items: center;
+  row-gap: 0.5em;
+}
+
+.favorite-card__text {
+  color: #4d0a00;
+}
