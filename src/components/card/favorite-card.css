@@ -7,7 +7,7 @@
   border-radius: 2.5em;
 }
 
-.favorite-card__svg {
+.favorite-card__inner {
   display: grid;
   justify-items: center;
   row-gap: 0.5em;
