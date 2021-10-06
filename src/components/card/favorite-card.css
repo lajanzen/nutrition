@@ -1,0 +1,30 @@
+.favorite-cards {
+  display: flex;
+  gap: 1em;
+}
+
+.favorite-card {
+  width: 10rem;
+  height: 10rem;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  border-radius: 2.5em;
+  row-gap: 1em;
+}
+
+.favorite-card__text {
+  color: #4d0a00;
+}
+
+.favorite-card__fruits {
+  background-color: #fef2f0;
+}
+
+.favorite-card__vegetables {
+  background-color: #eff7ee;
+}
+
+.favorite-card__snacks {
+  background-color: #fff8eb;
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap");
 
 *,
 *::after,
@@ -6,12 +6,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  --font-family: "Signika", sans-serif;
+  --color-primary: #91c788;
+  --color-secondary: #fa8574;
+  --color-primary-text: #262626;
+  --color-secondary-text: #8c8c8c;
+  --color-button-text: #fff;
+}
+
 html {
   font-size: 16px;
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: var(--font-family);
   margin: 0;
 }
 
@@ -21,5 +30,5 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: var(--font-family);
 }
