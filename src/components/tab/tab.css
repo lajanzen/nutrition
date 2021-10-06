@@ -1,0 +1,23 @@
+.tabs-example {
+  display: grid;
+  gap: 1em;
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 2em;
+  background-color: #fff8ee;
+  color: #ff9385;
+  text-align: center;
+  overflow: hidden;
+}
+
+.tabs__tab {
+  padding: 1em;
+}
+
+.tabs__tab_active {
+  background-color: #ff9385;
+  color: #fff8ee;
+}
