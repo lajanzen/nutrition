@@ -1,5 +1,21 @@
 .avatar {
+  position: relative;
+}
+
+.avatar__image {
+  width: 10em;
+  height: 10rem;
+}
+
+.avatar__status {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  background-color: #ff9385;
+  border: white solid 2px;
 }

@@ -6,4 +6,4 @@ export default {
   parameters: { layout: "centered" },
 };
 
-export const dog = () => avatar;
+export const round = () => avatar;
