@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.navbar a svg:hover {
+  fill: var(--color-primary);
+  stroke: var(--color-primary);
+}
+
+.navbar a:nth-child(3) {
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  height: 3rem;
+  width: 3rem;
+}
